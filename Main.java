@@ -6,6 +6,6 @@ class Main
                 System.out.println(args[0]);
         }
         else
-            System.out.print("No Arguments Given");
+            System.out.println("No Arguments Given");
     }
 }
