@@ -4,12 +4,12 @@ import java.sql.SQLOutput;
 
 public class Menu {
 
-    final int ADD_STUDENT_MENU_ITEM = 1;
-    final int UPDATE_STUDENT_MENU_ITEM = 2;
-    final int REMOVE_STUDENT_MENU_ITEM = 3;
-    final int SHOW_STUDENTS_MENU_ITEMS = 4;
-    final int EXIT_MENU_ITEM = 5;
-    final int NO_MENU_ITEM_SELECTED = 0;
+    public static final int ADD_STUDENT_MENU_ITEM = 1;
+    public static final int UPDATE_STUDENT_MENU_ITEM = 2;
+    public static final int REMOVE_STUDENT_MENU_ITEM = 3;
+    public static final int SHOW_STUDENTS_MENU_ITEMS = 4;
+    public static final int EXIT_MENU_ITEM = 5;
+    public static final int NO_MENU_ITEM_SELECTED = 0;
 
     public void show(){
         System.out.println("Available Menu Items");

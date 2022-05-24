@@ -19,7 +19,7 @@ public class Main {
                 chosenMenuItem = inputReader.chooseMenuItem();
 
                 switch (chosenMenuItem) {
-                    case menuItems.ADD_STUDENT_MENU_ITEM:
+                    case Menu.ADD_STUDENT_MENU_ITEM:
 
                         String studentFirstName = inputReader.readStudentFirstName();
                         String studentLastName = inputReader.readStudentLastName();
@@ -32,7 +32,7 @@ public class Main {
                         studentDao.add(newStudent);
                         break;
 
-                    case menuItems.UPDATE_STUDENT_MENU_ITEM:
+                    case Menu.UPDATE_STUDENT_MENU_ITEM:
                         for (Student currentStudent : studentDao.getAll()){
                             System.out.println(currentStudent);
                         }
@@ -52,7 +52,7 @@ public class Main {
                         }
                         break;
 
-                    case menuItems.REMOVE_STUDENT_MENU_ITEM:
+                    case Menu.REMOVE_STUDENT_MENU_ITEM:
                         for (Student currentStudent : studentDao.getAll()) {
                             System.out.println(currentStudent);
                         }
@@ -65,7 +65,7 @@ public class Main {
                         }
                         break;
 
-                    case menuItems.SHOW_STUDENTS_MENU_ITEMS:
+                    case Menu.SHOW_STUDENTS_MENU_ITEMS:
                         for (Student currentStudent : studentDao.getAll()) {
                             System.out.println(currentStudent);
                         }
