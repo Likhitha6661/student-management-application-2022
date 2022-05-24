@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 
 public class ArrayListStudentDAO implements StudentDAO {
-    ArrayList<Student> students;
+    private ArrayList<Student> students;
 
 
     public ArrayListStudentDAO() {

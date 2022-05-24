@@ -11,7 +11,6 @@ public class UserInputReader {
     }
 
     public String readStudentFirstName() {
-        //inputReader.nextLine();
         Scanner inputReader = new Scanner(System.in);
         System.out.print("Enter Student's First Name: ");
         String studentFirstName = inputReader.nextLine();

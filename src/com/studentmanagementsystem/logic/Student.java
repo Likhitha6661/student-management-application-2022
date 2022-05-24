@@ -1,38 +1,37 @@
 package com.studentmanagementsystem.logic;
-import com.studentmanagementsystem.data.list.ArrayListStudentDAO;
 
 public class Student {
-    private String studentFirstName;
-    private String studentLastName;
-    private int studentId;
+    private String firstName;
+    private String lastName;
+    private int id;
 
 
-    public String getStudentLastName() { return studentLastName; }
+    public String getLastName() { return lastName; }
 
-    public void setStudentLastName(String studentLastName) { this.studentLastName = studentLastName; }
+    public void setLastName(String lastName) { this.lastName = lastName; }
 
-    public String getStudentFirstName() {
-        return studentFirstName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setStudentFirstName(String studentFirstName) {
-        this.studentFirstName = studentFirstName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public int getStudentId() {
-        return studentId;
+    public int getId() {
+        return id;
     }
 
-    public void setStudentId(int studentId) {
-        this.studentId = studentId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Override
     public String toString() {
         return "Student{" +
-                "studentFirstName='" + studentFirstName + "'" +
-                ", studentLastName='" + studentLastName + "'" +
-                ", studentId=" + studentId +
+                "studentFirstName='" + firstName + "'" +
+                ", studentLastName='" + lastName + "'" +
+                ", studentId=" + id +
                 '}';
     }
 
